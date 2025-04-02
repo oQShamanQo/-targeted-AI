@@ -1,0 +1,22 @@
+{
+  "name": "my-targetai-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "playwright": "^1.51.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.14"
+  }
+}

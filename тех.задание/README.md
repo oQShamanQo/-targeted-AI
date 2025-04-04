@@ -19,4 +19,3 @@ npm init -y
 npm install playwright @playwright/test
 Инструкция запуск:
 npx playwright test --headed(Если хотите видеть как проходит тест)
-Нужно разархивировать файл node_modules и добавить его в корень проекта.

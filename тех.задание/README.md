@@ -13,8 +13,8 @@ page.waitForSelector(selector) — метод для ожидания появл
 Определение структуры проекта.
 Разработка страниц и тестов с использованием Playwright.
 Инструкция по Install:
-mkdir targetai-tests
-cd targetai-tests
+mkdir my-targetai-tests
+cd my-targetai-tests
 npm init -y
 npm install playwright @playwright/test
 Инструкция запуск:

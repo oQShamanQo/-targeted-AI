@@ -1,3 +1,4 @@
+Нужно разархивировать node_modules и добавить файлы в корень проекта
 Для успешного прохождения теста, нужно удалить Агента созданного при первом прохождении теста.
 Используемые промпты:
 npx playwright codegen https://app.targetai.ai — использован для записи действий на сайте и генерации кода.
@@ -11,3 +12,10 @@ page.waitForSelector(selector) — метод для ожидания появл
 Создание проекта Playwright и установка зависимостей.
 Определение структуры проекта.
 Разработка страниц и тестов с использованием Playwright.
+Инструкция по Install:
+mkdir my-targetai-tests
+cd my-targetai-tests
+npm init -y
+npm install playwright @playwright/test
+Инструкция запуск:
+npx playwright test --headed(Если хотите видеть как проходит тест)

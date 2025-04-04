@@ -1,0 +1,22 @@
+{
+  "name": "my-targetai-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "playwright": "^1.51.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": "Для успешного прохождения теста, нужно удалить Агента созданного при первом прохождении теста.\r Используемые промпты:\r npx playwright codegen https://app.targetai.ai — использован для записи действий на сайте и генерации кода.\r page.fill(selector, value) — метод для заполнения полей формы.\r page.click(selector) — метод для нажатия на кнопки.\r page.goto(url) — метод для перехода на страницы.\r page.waitForSelector(selector) — метод для ожидания появления элементов на странице.\r Создать шаблон страницы для логина с методами для заполнения формы и авторизации.\r Сгенерировать тесты для создания, редактирования и удаления агентов.\r Сгенерировать шаблоны страниц для работы с инструментами.\r Создание проекта Playwright и установка зависимостей.\r Определение структуры проекта.\r Разработка страниц и тестов с использованием Playwright.",
+  "devDependencies": {
+    "@types/jest": "^29.5.14"
+  }
+}
